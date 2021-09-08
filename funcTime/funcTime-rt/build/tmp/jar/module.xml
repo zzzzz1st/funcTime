@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="funcTime-rt" bajaVersion="0" vendor="calosi" vendorVersion="1.0" description="Calculate the functional time v4.7" preferredSymbol="ft" nre="true" autoload="true" installable="true" buildMillis="1621851052259" buildHost="L390-R90T25S5" moduleName="funcTime" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="bql-rt" vendor="Tridium" vendorVersion="4.7"/>
+  <dependency name="history-rt" vendor="Tridium" vendorVersion="4.7"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.7"/>
+ </dependencies>
+ <dirs/>
+ <types>
+  <type class="com.calosi.funcTime.BCalculateFuncTime" name="CalculateFuncTime"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>
